@@ -2,8 +2,8 @@
 
 pkgname=sonic-silver-theme
 _pkgname=silver-theme
-pkgver=6.5.1
-pkgrel=2
+pkgver=6.6.0
+pkgrel=1
 pkgdesc='Highly customizable binary Window Decoration, Application Style and Global Theme plugin for the Sonic Desktop.'
 arch=(x86_64)
 url="https://github.com/Sonic-DE/silver-theme"
@@ -31,7 +31,7 @@ depends=(breeze-icons
 makedepends=(extra-cmake-modules)
 groups=(sonicde)
 source=("${_pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
-sha256sums=('c99c93f5e80fdc02c5de7922eeeef395b5bb7ff83d585686f5ad30bd953c94e4')
+sha256sums=('152eb85645a19180f28b695a7dcb6f429cbe40c3f8d7dec0d95a225405f70261')
 
 build() {
   cmake -B build -S "${_pkgname}-${pkgver}" \
@@ -43,4 +43,3 @@ build() {
 package() {
   DESTDIR="${pkgdir}" cmake --install build
 }
-
