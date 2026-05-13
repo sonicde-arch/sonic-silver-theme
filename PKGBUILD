@@ -23,10 +23,10 @@ depends=(breeze-icons
          kiconthemes
          kirigami
          kwidgetsaddons
-         kwindowsystem
          qt6-base
          qt6-declarative
          qt6-svg
+         sonic-frameworks-windowsystem
          xdg-utils)
 makedepends=(extra-cmake-modules)
 groups=(sonicde)
