@@ -4,7 +4,7 @@
 pkgname=sonic-silver-theme
 _pkgname=silver-theme
 pkgver=6.6.0
-pkgrel=2
+pkgrel=3
 pkgdesc='Highly customizable binary Window Decoration, Application Style and Global Theme plugin for SonicDE.'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/silver-theme'
