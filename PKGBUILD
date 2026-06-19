@@ -17,7 +17,6 @@ depends=(breeze-icons
          kcmutils
          kcolorscheme
          kconfig
-         kguiaddons
          ki18n
          kiconthemes
          kwidgetsaddons
@@ -26,10 +25,11 @@ depends=(breeze-icons
          qt6-svg
          sonic-decoration
          sonic-frameworks-core-addons
+         sonic-frameworks-gui-addons
          sonic-frameworks-quick-ui
          sonic-frameworks-windowsystem
          xdg-utils)
-makedepends=(extra-cmake-modules)
+makedepends=(sonic-frameworks-cmake-modules)
 groups=(sonicde)
 source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 sha256sums=('152eb85645a19180f28b695a7dcb6f429cbe40c3f8d7dec0d95a225405f70261')
